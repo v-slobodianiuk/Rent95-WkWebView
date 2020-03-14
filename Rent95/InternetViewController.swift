@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class InternetViewController: UIViewController {
     
@@ -35,6 +36,9 @@ class InternetViewController: UIViewController {
         if app.canOpenURL(appURL) {
             app.open(appURL, options: [:], completionHandler: nil)
         }
+        
+        // MARK: Отправляем событие в аналитику
+        Analytics.logEvent("call_button_pressed", parameters: nil)
     }
 
 }
