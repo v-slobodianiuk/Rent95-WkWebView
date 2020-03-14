@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "No internet connection"; ObjectID = "WFw-f1-1fu"; */
+"WFw-f1-1fu.text" = "Нет подключения к интернету";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "i2O-Iu-MBE"; */
+"i2O-Iu-MBE.normalTitle" = "Перезагрузить";

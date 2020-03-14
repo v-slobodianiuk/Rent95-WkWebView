@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Rent95
+
+  Created by Vadym on 14.03.2020.
+  Copyright © 2020 Vadym Slobodianiuk. All rights reserved.
+*/
+
+"siteURL" = "https://rent95.com.ua/ru/";
+"phoneNumber" = "380670069595";
