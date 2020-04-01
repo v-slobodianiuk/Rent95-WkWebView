@@ -8,3 +8,6 @@
 
 "siteURL" = "https://rent95.com.ua/";
 "phoneNumber" = "380670069595";
+"error" = "Помилка";
+"needInstall" = "Спочатку встановіть додаток";
+"ok" = "Добре";

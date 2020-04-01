@@ -14,7 +14,7 @@ class InternetViewController: UIViewController {
     @IBOutlet weak var errorTextLabel: UILabel!
     
     let internetError = Notification.Name(rawValue: "Disconnected")
-    let callNumber = NSLocalizedString("phoneNumber", comment: "Номер телефона")
+    let callNumber = NSLocalizedString("phoneNumber", comment: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,23 +22,23 @@ class InternetViewController: UIViewController {
     }
     
     @IBAction func reloadButton(_ sender: UIButton) {
-        // MARK: Отправляем запрос на перезагрузку webView
+        // MARK: Reload webView request
         NotificationCenter.default.post(name: internetError, object: nil)
     }
     
     @IBAction func callButton(_ sender: Any) {
         
-        // MARK: Позвонить в компанию
-        let app = UIApplication.shared
-        let appPath = "telprompt://\(callNumber)"
-        let appURL = URL(string: appPath)!
-
-        if app.canOpenURL(appURL) {
-            app.open(appURL, options: [:], completionHandler: nil)
-        }
+        callAction()
         
-        // MARK: Отправляем событие в аналитику
+        // MARK: Send data to GA
         Analytics.logEvent("call_button_pressed", parameters: nil)
     }
-
+    
+    func callAction() {
+        // MARK: Call
+        let appPath = "telprompt://\(callNumber)"
+        let appURL = URL(string: appPath)!
+        let navigationAction = AppNavigation(appURL: appURL)
+        navigationAction.openApp(from: self)
+    }
 }

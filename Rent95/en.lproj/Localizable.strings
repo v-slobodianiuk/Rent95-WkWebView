@@ -8,3 +8,6 @@
 
 "siteURL" = "https://rent95.com.ua/en/";
 "phoneNumber" = "380670069595";
+"error" = "Error";
+"needInstall" = "You need to install application first";
+"ok" = "Ok";

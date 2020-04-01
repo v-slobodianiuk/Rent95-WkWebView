@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		663593CA500F619D76E141CD /* Pods_Rent95.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9737313D1679D541738F227 /* Pods_Rent95.framework */; };
+		D560F400243455A30009ACF2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D560F3FF243455A30009ACF2 /* WebKit.framework */; };
 		D56FAC6F241D1D540062E4A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56FAC6E241D1D540062E4A2 /* GoogleService-Info.plist */; };
+		D5BAA90F2434859A003FDD31 /* AppScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA90E2434859A003FDD31 /* AppScheme.swift */; };
+		D5BAA912243486E6003FDD31 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA911243486E6003FDD31 /* AppNavigation.swift */; };
 		D5D264B0241D0E29007C72E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D264AF241D0E29007C72E6 /* AppDelegate.swift */; };
 		D5D264B2241D0E29007C72E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D264B1241D0E29007C72E6 /* SceneDelegate.swift */; };
 		D5D264B4241D0E29007C72E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D264B3241D0E29007C72E6 /* ViewController.swift */; };
@@ -24,8 +27,11 @@
 /* Begin PBXFileReference section */
 		A9737313D1679D541738F227 /* Pods_Rent95.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent95.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25B20554E7CA3238E2F7433 /* Pods-Rent95.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95.release.xcconfig"; path = "Target Support Files/Pods-Rent95/Pods-Rent95.release.xcconfig"; sourceTree = "<group>"; };
+		D560F3FF243455A30009ACF2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D56FAC6E241D1D540062E4A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D595533C4F9690A9AC99BB8D /* Pods-Rent95.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95.debug.xcconfig"; path = "Target Support Files/Pods-Rent95/Pods-Rent95.debug.xcconfig"; sourceTree = "<group>"; };
+		D5BAA90E2434859A003FDD31 /* AppScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScheme.swift; sourceTree = "<group>"; };
+		D5BAA911243486E6003FDD31 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
 		D5D264AC241D0E29007C72E6 /* Rent95.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rent95.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D264AF241D0E29007C72E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D264B1241D0E29007C72E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D560F400243455A30009ACF2 /* WebKit.framework in Frameworks */,
 				663593CA500F619D76E141CD /* Pods_Rent95.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +66,7 @@
 		257C5BF1164E63BB271A1AB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D560F3FF243455A30009ACF2 /* WebKit.framework */,
 				A9737313D1679D541738F227 /* Pods_Rent95.framework */,
 			);
 			name = Frameworks;
@@ -70,8 +78,41 @@
 				D595533C4F9690A9AC99BB8D /* Pods-Rent95.debug.xcconfig */,
 				D25B20554E7CA3238E2F7433 /* Pods-Rent95.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5880C5924347B1100F48C94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5D264CC241D16E0007C72E6 /* CustomUIButton.swift */,
+				D5D264CE241D1714007C72E6 /* CustomUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5880C5A24347B9400F48C94 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D5BAA911243486E6003FDD31 /* AppNavigation.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D5880C5B24347BA300F48C94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D5D264B3241D0E29007C72E6 /* ViewController.swift */,
+				D5D264D4241D178C007C72E6 /* InternetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D5BAA9102434859F003FDD31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5BAA90E2434859A003FDD31 /* AppScheme.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D5D264A3241D0E29007C72E6 = {
@@ -97,12 +138,12 @@
 			children = (
 				D5D264AF241D0E29007C72E6 /* AppDelegate.swift */,
 				D5D264B1241D0E29007C72E6 /* SceneDelegate.swift */,
-				D5D264B3241D0E29007C72E6 /* ViewController.swift */,
-				D5D264D4241D178C007C72E6 /* InternetViewController.swift */,
-				D5D264CE241D1714007C72E6 /* CustomUIView.swift */,
-				D5D264CC241D16E0007C72E6 /* CustomUIButton.swift */,
-				D5D264C7241D113C007C72E6 /* Localizable.strings */,
+				D5880C5A24347B9400F48C94 /* Service */,
+				D5BAA9102434859F003FDD31 /* Model */,
+				D5880C5B24347BA300F48C94 /* Controller */,
+				D5880C5924347B1100F48C94 /* View */,
 				D5D264B5241D0E29007C72E6 /* Main.storyboard */,
+				D5D264C7241D113C007C72E6 /* Localizable.strings */,
 				D5D264B8241D0E2A007C72E6 /* Assets.xcassets */,
 				D5D264BA241D0E2A007C72E6 /* LaunchScreen.storyboard */,
 				D56FAC6E241D1D540062E4A2 /* GoogleService-Info.plist */,
@@ -233,8 +274,10 @@
 				D5D264CD241D16E0007C72E6 /* CustomUIButton.swift in Sources */,
 				D5D264CF241D1714007C72E6 /* CustomUIView.swift in Sources */,
 				D5D264B4241D0E29007C72E6 /* ViewController.swift in Sources */,
+				D5BAA90F2434859A003FDD31 /* AppScheme.swift in Sources */,
 				D5D264D5241D178C007C72E6 /* InternetViewController.swift in Sources */,
 				D5D264B0241D0E29007C72E6 /* AppDelegate.swift in Sources */,
+				D5BAA912243486E6003FDD31 /* AppNavigation.swift in Sources */,
 				D5D264B2241D0E29007C72E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
