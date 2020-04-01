@@ -1,0 +1,6 @@
+framework module Pods_Rent95 {
+  umbrella header "Pods-Rent95-umbrella.h"
+
+  export *
+  module * { export * }
+}
