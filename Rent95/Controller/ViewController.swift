@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import Firebase
 
 class ViewController: UIViewController {
     
@@ -128,14 +129,19 @@ extension ViewController: WKNavigationDelegate {
         switch navigationAction.request.url?.scheme {
         case AppScheme.App.phone.rawValue:
             navAction(for :navigationAction, decisionHandler)
+            Analytics.logEvent("call_button_pressed", parameters: nil)
         case AppScheme.App.mail.rawValue:
             navAction(for :navigationAction, decisionHandler)
+            Analytics.logEvent("mail_button_pressed", parameters: nil)
         case AppScheme.App.viber.rawValue:
             navAction(for :navigationAction, decisionHandler)
+            Analytics.logEvent("viber_button_pressed", parameters: nil)
         case AppScheme.App.telegram.rawValue:
             navAction(for :navigationAction, decisionHandler)
+            Analytics.logEvent("telegram_button_pressed", parameters: nil)
             case AppScheme.App.whatsapp.rawValue:
             navAction(for :navigationAction, decisionHandler)
+            Analytics.logEvent("whatsapp_button_pressed", parameters: nil)
         default:
             decisionHandler(.allow)
         }

@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // MARK: Load Firebase
         FirebaseApp.configure()
+        
+        // MARK: Send data to GA
+        Analytics.logEvent(AnalyticsEventAppOpen, parameters: nil)
         return true
     }
 
