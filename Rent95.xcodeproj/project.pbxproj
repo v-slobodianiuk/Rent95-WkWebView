@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC4DC45CE6ABE62779C4A3A /* Pods_Rent95_Rent95Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D55C88D1E6E11722F5BAFB3 /* Pods_Rent95_Rent95Tests.framework */; };
 		663593CA500F619D76E141CD /* Pods_Rent95.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9737313D1679D541738F227 /* Pods_Rent95.framework */; };
 		D560F400243455A30009ACF2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D560F3FF243455A30009ACF2 /* WebKit.framework */; };
 		D56FAC6F241D1D540062E4A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56FAC6E241D1D540062E4A2 /* GoogleService-Info.plist */; };
+		D585B68A2434F89B007744AF /* AppNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D585B6892434F89B007744AF /* AppNavigationTests.swift */; };
+		D5A68B9A2434F0E9001160DC /* Rent95Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A68B992434F0E9001160DC /* Rent95Tests.swift */; };
+		D5A68BA22434F145001160DC /* AppSchemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A68BA12434F145001160DC /* AppSchemeTests.swift */; };
 		D5BAA90F2434859A003FDD31 /* AppScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA90E2434859A003FDD31 /* AppScheme.swift */; };
 		D5BAA912243486E6003FDD31 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAA911243486E6003FDD31 /* AppNavigation.swift */; };
 		D5D264B0241D0E29007C72E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D264AF241D0E29007C72E6 /* AppDelegate.swift */; };
@@ -24,12 +28,30 @@
 		D5D264D5241D178C007C72E6 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D264D4241D178C007C72E6 /* InternetViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D5A68B9C2434F0E9001160DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D264A4241D0E29007C72E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D264AB241D0E29007C72E6;
+			remoteInfo = Rent95;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7D760DC316985B7DE3837D44 /* Pods-Rent95-Rent95Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95-Rent95Tests.debug.xcconfig"; path = "Target Support Files/Pods-Rent95-Rent95Tests/Pods-Rent95-Rent95Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D55C88D1E6E11722F5BAFB3 /* Pods_Rent95_Rent95Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent95_Rent95Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9737313D1679D541738F227 /* Pods_Rent95.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rent95.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC872EE8B8482209F02D9065 /* Pods-Rent95-Rent95Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95-Rent95Tests.release.xcconfig"; path = "Target Support Files/Pods-Rent95-Rent95Tests/Pods-Rent95-Rent95Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D25B20554E7CA3238E2F7433 /* Pods-Rent95.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95.release.xcconfig"; path = "Target Support Files/Pods-Rent95/Pods-Rent95.release.xcconfig"; sourceTree = "<group>"; };
 		D560F3FF243455A30009ACF2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D56FAC6E241D1D540062E4A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D585B6892434F89B007744AF /* AppNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationTests.swift; sourceTree = "<group>"; };
 		D595533C4F9690A9AC99BB8D /* Pods-Rent95.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rent95.debug.xcconfig"; path = "Target Support Files/Pods-Rent95/Pods-Rent95.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A68B972434F0E9001160DC /* Rent95Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rent95Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A68B992434F0E9001160DC /* Rent95Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent95Tests.swift; sourceTree = "<group>"; };
+		D5A68B9B2434F0E9001160DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A68BA12434F145001160DC /* AppSchemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSchemeTests.swift; sourceTree = "<group>"; };
 		D5BAA90E2434859A003FDD31 /* AppScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScheme.swift; sourceTree = "<group>"; };
 		D5BAA911243486E6003FDD31 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
 		D5D264AC241D0E29007C72E6 /* Rent95.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rent95.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +73,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D5A68B942434F0E9001160DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4DC45CE6ABE62779C4A3A /* Pods_Rent95_Rent95Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5D264A9241D0E29007C72E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +98,7 @@
 			children = (
 				D560F3FF243455A30009ACF2 /* WebKit.framework */,
 				A9737313D1679D541738F227 /* Pods_Rent95.framework */,
+				9D55C88D1E6E11722F5BAFB3 /* Pods_Rent95_Rent95Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,8 +108,18 @@
 			children = (
 				D595533C4F9690A9AC99BB8D /* Pods-Rent95.debug.xcconfig */,
 				D25B20554E7CA3238E2F7433 /* Pods-Rent95.release.xcconfig */,
+				7D760DC316985B7DE3837D44 /* Pods-Rent95-Rent95Tests.debug.xcconfig */,
+				BC872EE8B8482209F02D9065 /* Pods-Rent95-Rent95Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D585B68B2434F8A2007744AF /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D585B6892434F89B007744AF /* AppNavigationTests.swift */,
+			);
+			path = ServiceTests;
 			sourceTree = "<group>";
 		};
 		D5880C5924347B1100F48C94 /* View */ = {
@@ -107,6 +148,25 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D5A68B982434F0E9001160DC /* Rent95Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A68B992434F0E9001160DC /* Rent95Tests.swift */,
+				D585B68B2434F8A2007744AF /* ServiceTests */,
+				D5A68BA32434F156001160DC /* ModelTests */,
+				D5A68B9B2434F0E9001160DC /* Info.plist */,
+			);
+			path = Rent95Tests;
+			sourceTree = "<group>";
+		};
+		D5A68BA32434F156001160DC /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A68BA12434F145001160DC /* AppSchemeTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
 		D5BAA9102434859F003FDD31 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D264AE241D0E29007C72E6 /* Rent95 */,
+				D5A68B982434F0E9001160DC /* Rent95Tests */,
 				D5D264AD241D0E29007C72E6 /* Products */,
 				461B7C53D00B55209018D901 /* Pods */,
 				257C5BF1164E63BB271A1AB6 /* Frameworks */,
@@ -129,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D264AC241D0E29007C72E6 /* Rent95.app */,
+				D5A68B972434F0E9001160DC /* Rent95Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +217,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D5A68B962434F0E9001160DC /* Rent95Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A68BA02434F0E9001160DC /* Build configuration list for PBXNativeTarget "Rent95Tests" */;
+			buildPhases = (
+				65B86AB427F487C792ECE6EF /* [CP] Check Pods Manifest.lock */,
+				D5A68B932434F0E9001160DC /* Sources */,
+				D5A68B942434F0E9001160DC /* Frameworks */,
+				D5A68B952434F0E9001160DC /* Resources */,
+				EAC4599911AE74ACE8ACEF2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A68B9D2434F0E9001160DC /* PBXTargetDependency */,
+			);
+			name = Rent95Tests;
+			productName = Rent95Tests;
+			productReference = D5A68B972434F0E9001160DC /* Rent95Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D5D264AB241D0E29007C72E6 /* Rent95 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5D264C0241D0E2A007C72E6 /* Build configuration list for PBXNativeTarget "Rent95" */;
@@ -180,10 +262,14 @@
 		D5D264A4241D0E29007C72E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Vadym Slobodianiuk";
 				TargetAttributes = {
+					D5A68B962434F0E9001160DC = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D5D264AB241D0E29007C72E6;
+					};
 					D5D264AB241D0E29007C72E6 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -205,11 +291,19 @@
 			projectRoot = "";
 			targets = (
 				D5D264AB241D0E29007C72E6 /* Rent95 */,
+				D5A68B962434F0E9001160DC /* Rent95Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D5A68B952434F0E9001160DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5D264AA241D0E29007C72E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +336,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rent95/Pods-Rent95-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		65B86AB427F487C792ECE6EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rent95-Rent95Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E1E8446B2FE2F9298DA0315C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,9 +380,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EAC4599911AE74ACE8ACEF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rent95-Rent95Tests/Pods-Rent95-Rent95Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rent95-Rent95Tests/Pods-Rent95-Rent95Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rent95-Rent95Tests/Pods-Rent95-Rent95Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D5A68B932434F0E9001160DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A68BA22434F145001160DC /* AppSchemeTests.swift in Sources */,
+				D585B68A2434F89B007744AF /* AppNavigationTests.swift in Sources */,
+				D5A68B9A2434F0E9001160DC /* Rent95Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5D264A8241D0E29007C72E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +426,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A68B9D2434F0E9001160DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D264AB241D0E29007C72E6 /* Rent95 */;
+			targetProxy = D5A68B9C2434F0E9001160DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D5D264B5241D0E29007C72E6 /* Main.storyboard */ = {
@@ -316,6 +467,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D5A68B9E2434F0E9001160DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D760DC316985B7DE3837D44 /* Pods-Rent95-Rent95Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVLZH7HMMQ;
+				INFOPLIST_FILE = Rent95Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = v.slobodianiuk.Rent95Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rent95.app/Rent95";
+			};
+			name = Debug;
+		};
+		D5A68B9F2434F0E9001160DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC872EE8B8482209F02D9065 /* Pods-Rent95-Rent95Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVLZH7HMMQ;
+				INFOPLIST_FILE = Rent95Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = v.slobodianiuk.Rent95Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rent95.app/Rent95";
+			};
+			name = Release;
+		};
 		D5D264BE241D0E2A007C72E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,6 +674,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D5A68BA02434F0E9001160DC /* Build configuration list for PBXNativeTarget "Rent95Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A68B9E2434F0E9001160DC /* Debug */,
+				D5A68B9F2434F0E9001160DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D5D264A7241D0E29007C72E6 /* Build configuration list for PBXProject "Rent95" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
